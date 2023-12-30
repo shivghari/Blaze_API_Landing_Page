@@ -22,7 +22,7 @@ function Hero() {
               placeholder={""}
             >
               Unleash the Power of Instant Innovation: Transform Your Ideas into
-              Reality with Blaze API's Intuitive No-Code Backend Solution,
+              Reality with Blaze API&apos;s Intuitive No-Code Backend Solution,
               Anytime, Anywhere.
             </Typography>
 
