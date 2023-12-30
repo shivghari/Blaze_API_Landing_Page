@@ -7,15 +7,21 @@ interface InfoCardProps {
   children: React.ReactNode;
 }
 
-
 export function InfoCard({ title, children }: InfoCardProps) {
   return (
-    <Card color="transparent" shadow={false}>
-      <CardBody className="grid px-0">
-        <Typography variant="h2" color="blue-gray" className="mb-2">
+    <Card color="transparent" shadow={false} placeholder={""}>
+      <CardBody className="grid px-0" placeholder={""}>
+        <Typography
+          variant="h2"
+          color="blue-gray"
+          className="mb-2"
+          placeholder={""}
+        >
           {title}
         </Typography>
-        <Typography className=" font-normal">{children}</Typography>
+        <Typography className=" font-normal" placeholder={""}>
+          {children}
+        </Typography>
       </CardBody>
     </Card>
   );
