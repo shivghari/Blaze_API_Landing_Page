@@ -27,32 +27,28 @@ const OPTIONS = [
 export function MobileConvenience() {
   return (
     <section className="py-20 px-8">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
-        <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
-          <Typography
-            variant="h2"
-            color="blue-gray"
-            className="mb-4"
-            placeholder={""}
-          >
-            Mobile Convenience
-          </Typography>
-          <Typography
-            variant="lead"
-            className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0"
-            placeholder={""}
-          >
-            Access your learning materials on the go.
-          </Typography>
+      <Typography
+        variant="h2"
+        color="blue-gray"
+        className="mb-2 text-center"
+        placeholder={""}
+      >
+        Mobile Convenience
+      </Typography>
+      <Typography
+        variant="lead"
+        className="mb-5 px-4 text-center text-xl !text-gray-500 lg:px-0"
+        placeholder={""}
+      >
+        Access your learning materials on the go.
+      </Typography>
 
-          <div className="col-span-2 grid gap-5 grid-cols-2 ">
-            {OPTIONS.map(({ title, description }) => (
-              <InfoCard key={title} title={title}>
-                {description}
-              </InfoCard>
-            ))}
-          </div>
-        </div>
+      <div className="md:w-[80%] w-full mt-10 m-auto flex flex-wrap justify-evenly">
+        {OPTIONS.map(({ title, description }) => (
+          <InfoCard key={title} title={title}>
+            {description}
+          </InfoCard>
+        ))}
       </div>
     </section>
   );

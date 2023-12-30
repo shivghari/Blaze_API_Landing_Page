@@ -20,16 +20,18 @@ export function Footer() {
               className="mb-4"
               placeholder={""}
             >
-              Material Tailwind
+              Blaze API
             </Typography>
             <Typography
               color="white"
-              className="mb-12 font-normal"
+              className="mb-12 font-normal md:w-[70%] text-[#a5a8a6]"
               placeholder={""}
             >
-              The reward for getting on the stage is fame.
+              Unleash the Power of Instant Innovation: Transform Your Ideas into
+              Reality with Blaze API&apos;s Intuitive No-Code Backend Solution,
+              Anytime, Anywhere.
             </Typography>
-            <ul className="flex flex-wrap items-center justify-center md:justify-start">
+            {/* <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
                 <li key={link}>
                   <Typography
@@ -45,7 +47,7 @@ export function Footer() {
                   </Typography>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
             <Typography
@@ -54,7 +56,7 @@ export function Footer() {
               className="mb-3"
               placeholder={""}
             >
-              Get the app
+              Join us
             </Typography>
             <div className="flex flex-col gap-2">
               <Button
@@ -62,28 +64,7 @@ export function Footer() {
                 className="flex items-center justify-center"
                 placeholder={""}
               >
-                <Image
-                  width={256}
-                  height={256}
-                  src="/logos/logo-apple.png"
-                  className="-mt-0.5 mr-2 h-6 w-6"
-                  alt="ios"
-                />
-                App Store
-              </Button>
-              <Button
-                color="white"
-                className="flex items-center justify-center"
-                placeholder={""}
-              >
-                <Image
-                  width={256}
-                  height={256}
-                  src="/logos/logo-google.png"
-                  className="-mt-0.5 mr-2 h-6 w-6"
-                  alt="ios"
-                />
-                Google Play
+                Join Waitlist Now
               </Button>
             </div>
           </div>
@@ -94,15 +75,7 @@ export function Footer() {
             className="text-center font-normal opacity-75"
             placeholder={""}
           >
-            &copy; {CURRENT_YEAR} Made with{" "}
-            <a href="https://www.material-tailwind.com" target="_blank">
-              Material Tailwind
-            </a>{" "}
-            by{" "}
-            <a href="https://www.creative-tim.com" target="_blank">
-              Creative Tim
-            </a>
-            .
+            &copy; {CURRENT_YEAR} Blaze API.
           </Typography>
 
           <div className="flex gap-2">

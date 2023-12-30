@@ -7,7 +7,7 @@ function Hero() {
     <div className="relative min-h-screen w-full">
       <header className="grid !min-h-[44rem] bg-gray-900 px-8">
         <div className="container mx-auto mt-22 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
-          <div className="col-span-12 text-center">
+          <div className="col-span-12 text-center md:pt-0 pt-16">
             <Typography
               variant="h1"
               color="white"

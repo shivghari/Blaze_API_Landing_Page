@@ -9,7 +9,12 @@ interface InfoCardProps {
 
 export function InfoCard({ title, children }: InfoCardProps) {
   return (
-    <Card color="transparent" shadow={false} placeholder={""}>
+    <Card
+      color="transparent"
+      shadow={false}
+      placeholder={""}
+      className="md:w-fit w-full text-center"
+    >
       <CardBody className="grid px-0" placeholder={""}>
         <Typography
           variant="h2"

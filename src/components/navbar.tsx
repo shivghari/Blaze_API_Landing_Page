@@ -76,7 +76,7 @@ export function Navbar() {
           color={isScrolling ? "gray" : "white"}
           placeholder={""}
         >
-          Material Tailwind
+          Blaze API
         </Typography>
         <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
